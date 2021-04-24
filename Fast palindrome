@@ -1,0 +1,6 @@
+bool checkpalindrome(string s){
+    string ss=s;
+    reverse(ss.begin(),ss.end());
+    if(s==ss) return true;
+    else return false;
+}
