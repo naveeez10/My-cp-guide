@@ -5,6 +5,7 @@ const int mod = 1e9 + 7;
 #define ld long double
 #define f first
 #define s second
+#define endl '\n'
 #define pb push_back
 #define MP make_pair
 #define INF LLONG_MAX
@@ -61,44 +62,38 @@ bool cases = 0;
 const char sp = ' ';
 const char nl = '\n';
 
-/*
-    Read the problem again!
-    Read the constraints!
-    If get mulitple WA's change your approach and rewrite the code!
-    Read all the problems , there might be a easier one ahead!
-    Read the constraints(again)!.
-    Read the problem again!
-*/
-////////////////////////////////////////////////////////////////////
+const int N = 1e5 + 5;
+const int inf = 1e9 + 69;
+
 void getans() {
-		
+
 }
 
 int main() {
 
 #ifndef ONLINE_JUDGE
-	freopen("Error.txt", "w", stderr);
+      freopen("Error.txt", "w", stderr);
 #endif
 
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
+      ios_base::sync_with_stdio(false);
+      cin.tie(NULL);
 
-	ll T = 1;
+      ll T = 1;
 
-	if (testcase) {
-		cin >> T;
-	}
+      if (testcase) {
+            cin >> T;
+      }
 
-	while (T--) {
-		if (cases) {
-			cout << "Case #" << casenumber << ": ";
-			casenumber++;
-		}
-		getans();
-	}
+      while (T--) {
+            if (cases) {
+                  cout << "Case #" << casenumber << ": ";
+                  casenumber++;
+            }
+            getans();
+      }
 #ifndef ONLINE_JUDGE
-	cerr << "Time : " << 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC << "ms\n";
+      cerr << "Time : " << 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC << "ms\n";
 #endif
 
-	return 0;
+      return 0;
 }
