@@ -112,7 +112,7 @@ void getans() {
             int u, v, wt; cin >> u >> v >> wt;
             edges.push_back({wt, {u, v}});
       }
-      sort(edges.begin(), edges.end());
+sort(edges.begin(), edges.end()); d:
       ll totcost = 0;
 
       for (auto edge : edges) {

@@ -65,6 +65,18 @@ const char nl = '\n';
 const int N = 1e5 + 5;
 const int inf = 1e9 + 69;
 
+void yesret() {
+      cout << "YES" << nl;
+}
+void noret() {
+      cout << "NO" << nl;
+}
+
+void read(vector<int> &a) {
+      for (auto &x : a) {
+            cin >> x;
+      }
+}
 void getans() {
 
 }
