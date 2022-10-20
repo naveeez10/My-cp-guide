@@ -55,16 +55,6 @@ template <class T> void _print(deque <T> v) {cerr << "[ "; for (T i : v) {_print
 template <class T> void _print(priority_queue <T> v) {cerr << "[ "; while (!v.empty()) {_print(v.top()); v.pop(); cerr << " ";} cerr << "]";}
 template <class T> void _print(priority_queue <T, vector<T>, greater<T>> v) {cerr << "[ "; while (!v.empty()) {_print(v.top()); v.pop(); cerr << " ";} cerr << "]";}
 
-////////////////////////////////////////////////////////////////////
-bool testcase = 1;
-int casenumber = 1;
-bool cases = 0;
-const char sp = ' ';
-const char nl = '\n';
-
-const int N = 1e5 + 5;
-const int inf = 1e9 + 69;
-
 void yesret() {
       cout << "YES" << nl;
 }
@@ -77,6 +67,17 @@ void read(vector<int> &a) {
             cin >> x;
       }
 }
+
+////////////////////////////////////////////////////////////////////
+bool testcase = 1;
+int casenumber = 1;
+bool cases = 0;
+const char sp = ' ';
+const char nl = '\n';
+
+const int N = 1e5 + 5;
+const int inf = 1e9 + 69;
+
 void getans() {
 
 }
